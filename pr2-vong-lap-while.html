@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vòng Lặp While</title>
+</head>
+<body>
+    <h2>Bài 1: </h2><p>Viết chương trình nhận vào một số từ hộp thoại, việc nhập kết thúc khi người dùng nhập vào giá trị -1. Mỗi giá trị nhập được sẽ được hiển thị ra và thực hiện tính tổng các giá trị đó. </p> 
+    <script>
+        let num = parseInt (prompt("Enter a number"));
+        let total = 2
+
+        while( num != -1 ){
+            num = parseInt (prompt("Enter a number"));
+            alert("This number monent is" + " " + num);
+            total = total + num;
+            alert("This total monent is" + " "+ total +  "\n" + "\n"  +  "Please enter number = -1 to exit the loop");
+        }
+        document.write("When num = -1. Out Floop. This last monent when num = -1, total is" + " " + total);
+    </script>
+
+
+    <h2>Bài 2: </h2><p>Hiển thị thẻ hr theo độ rộng từ 1 đến 100</p>
+    <script>
+        let i = 0;
+
+        while (i < 100){
+            document.write("<hr width =" + i + "%>");
+            i++;
+        }
+    </script>
+</body>
+</html>

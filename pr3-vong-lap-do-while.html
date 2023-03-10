@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Bài 1:</h2>
+    <script>
+        let value = null;
+
+        do{
+            value = prompt("Nhập vào (số < 1 || số > 10) để duy trì vòng lặp");
+        }while(value < 1 || value > 10){
+            alert("Số bạn vừa nhập là " + value);
+        }
+        document.write("Kết thúc vòng lặp do bạn nhập số từ 1 đến 10")
+    </script>
+</body>
+</html>
